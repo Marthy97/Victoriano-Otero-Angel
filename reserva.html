@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cafe Madrid</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header class="site-header inicio">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <img src="img/logo.png" alt="Logotipo cafeteria">
+                </a>
+
+                <div class="mobile-menu">
+                    <a href="#navegacion">
+                        <img src="img/barras.svg" alt="Icono Menu">
+                    </a>
+                </div>
+
+                <nav id="navegacion" class="navegacion">
+                  <a href="Torralva-Ruiz-Lizbeth.html">Inicio</a>
+                  <a href="nosotross.html">Nosotros</a>
+                  <a href="carta.html">La Carta</a>
+                  <a href="reserva.html">Reservas</a>
+                </nav>
+            </div>
+            <h1>RESERVA <br>Más que una cafeteria, un punto de referencia para los amantes del café.</h1>
+        </div> <!-- contenedor -->
+    </header>
+
+    <main class="contenedor">
+        <h1 class="fw-300 centrar-texto">Formulario de Rserva</h1>
+
+        <form class="contacto" action="">
+            <fieldset>
+                <legend>Información Personal</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Tu Nombre">
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" placeholder="Tu Correo electrónico" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" placeholder="Tu Teléfono" required>
+
+            </fieldset>
+
+
+
+
+            <fieldset>
+                <legend>Fecha y Hora de reserva</legend>
+
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha">
+
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" min="09:00" max="18:00">
+
+
+            </fieldset>
+
+            <input type="submit" value="Enviar" class="boton boton-verde">
+
+        </form>
+        <br>
+    </main>
+
+
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <p class="copyright">Todos los Derechos Reservados 2021 &copy; </p>
+        </div>
+    </footer>
+</body>
+</html>
